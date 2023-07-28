@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/Bootstrap/css/bootstrap.rtl.min.css">
+    <title>صفحه اصلی</title>
+    <style>
+        .len{
+            max-height: 100vh;
+            overflow-y:auto
+            
+        }
+        .login{
+            width: 500px;
+            
+        }
+        @media (max-width:600px){
+            .login{
+                width: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-warning pt-5">
+    <!-- MENU ITEM START -->
+
+    <div class="container-fluid">
+        <div class="len buy  p-5 bg-dark d-flex align-items-center justify-content-center">
+            
+           
+            <form action="/dashboard/home.html" style="background-color: rgb(58, 58, 58); padding: 5%">
+               <div class="text-center">
+                <img src="/assets/img/LOGO.png" alt="Bootstrap" width="50" height="50"
+                class="d-inline-block align-text-bottom">
+               </div>
+                <div class="header text-center text-white p-5">
+                    <h1 class="fs-1 fw-bold mb-4"> ورود</h1>
+                </div>
+               <div class="login shadow p-2">
+                <div class=" py-2">
+                    <input type="text" class="form-control w-100" placeholder="نام کاربری">
+                </div>
+                <div class=" py-2">
+                    <input type="password" class="form-control" placeholder="رمز عبور">
+                </div>
+                  <div class=" py-2">
+                      <button class="btn btn-info w-100 text-light fs-5 p-1">ذخیره</button>
+                  </div>
+               </div>
+            </form>
+        </div>
+    <!-- Footer End -->
+    <script src="/assets/Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

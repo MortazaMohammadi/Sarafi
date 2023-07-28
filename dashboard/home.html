@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/Bootstrap/css/bootstrap.rtl.min.css">
+    <title>صفحه اصلی</title>
+    <style>
+        .len{
+            max-height: 100vh;
+            overflow-y:auto
+            
+        }
+    </style>
+</head>
+
+<body class="bg-warning pt-5">
+    <!-- MENU ITEM START -->
+    <nav class="navbar navbar-expand-lg shadow-lg fixed-top" >
+        <div class="container-fluid" style="background-color: rgb(58, 58, 58);">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/img/LOGO.png" alt="Bootstrap" width="50" height="50"
+                    class="d-inline-block align-text-bottom">
+            </a>
+            <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav px-5 fw-bold text-light">
+                    <li class="nav-item">
+                    <li><a class="nav-link fs-6 fw-small px-4 text-light" href="/dashboard/home.html">صفحه اصلی</a></li>
+                    </li>
+                    <li><a class="nav-link fs-6 fw-small px-4  text-light" href="/dashboard/renew.html">تجدید نرخ</a></li>
+                    </li>
+                    <li><a class="nav-link fs-6 fw-small px-4  text-light" href="/dashboard/recives.html">حواله دریافتی</a></li>
+                    </li>
+                    <li><a class="nav-link fs-6 fw-small px-4  text-light" href="/dashboard/send.html">ارسال پول</a></li>
+                    </li>
+                    <li><a class="nav-link fs-6 fw-small px-4  text-light" href="/dashboard/moneyHistory.html">تاریخچه نرخ</a></li>
+                    <li><a class="nav-link fs-6 fw-small px-4  text-light" href="/index.html">خروج</a></li>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="len buy m-lg-5 m-md-3 my-5 p-5 bg-danger">
+            <div class="header text-center text-white">
+                <h1 class="fs-1 fw-bold mb-4">خرید اصعار</h1>
+            </div>
+            <div class="row m-0">
+              <div class="col-lg-9 col-md-9 col-12">
+                <form action="">
+                    <div class="row m-0">
+                        <div class="col-lg-4 col-md-4 col-12 py-2">
+                            <input type="number" class="form-control" placeholder=" مقدار پول">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 py-2">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>نوعیت پول</option>
+                                <option value="1">دالر امریکایی</option>
+                                <option value="2">پوند انگلیس</option>
+                                <option value="3">تومن ایران</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-12 py-2">
+                            <button class="btn btn-info w-100 text-light fs-5 p-1">خرید</button>
+                        </div>
+                    </div>
+                </form>
+              </div>
+                
+                <div class="col-lg-3 col-md-3 col-12 py-2">
+                    <input type="number" class="form-control w-100" placeholder=" مقدار پول">
+                </div>
+            </div>
+        
+        </div>
+        <div class="len sale m-lg-5 m-md-3 my-5 p-5 bg-secondary">
+            <div class="header text-center text-white">
+                <h1 class="fs-1 fw-bold mb-4">فروش اصعار</h1>
+            </div>
+            <div class="row m-0">
+               <div class="col-lg-9 col-md-9 col-12">
+                <form action="">
+                    <div class="row m-0">
+                        <div class="col-lg-4 col-md-4 col-12 py-2">
+                            <input type="number" class="form-control" placeholder=" مقدار پول">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 py-2">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>نوعیت پول</option>
+                                <option value="1">دالر امریکایی</option>
+                                <option value="2">پوند انگلیس</option>
+                                <option value="3">تومن ایران</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-12 py-2">
+                            <button class="btn btn-info w-100 text-light fs-5 p-1">فروش</button>
+                        </div>
+                    </div>
+                </form>
+               </div>
+                
+                <div class="col-lg-3 col-md-3 col-12 py-2">
+                    <input type="number" class="form-control w-100" placeholder=" مقدار پول">
+                </div>
+            </div>
+        
+        </div>
+        <div class="len recive m-lg-5 m-md-3 my-5 p-5 bg-danger">
+            <div class="header text-center text-white">
+                <h1 class="fs-1 fw-bold mb-4">حواله دریافتی</h1>
+            </div>
+            <div class="row m-0">
+                <div class="col-sm-12">
+                    <form action="">
+                        <div class="row m-0">
+                            <div class="col-lg-6 col-md-6 col-12 py-2">
+                                <input type="text" class="form-control" placeholder=" آیدی">
+                            </div>
+                           
+                            <div class="col-lg-4 col-md-4 col-12 py-2">
+                                <button class="btn btn-info w-100 text-light fs-5 p-1">جستجو</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-5 m-0 text-center ">
+                <table class="table text-white">
+                    <tr>
+                        <th class="px-1 pb-3">آیدی</th>
+                        <th class="px-1 pb-3"> فرستنده</th>
+                        <th class="px-1 pb-3"> گیرینده</th>
+                        <th class="px-1 pb-3">مقدار به افغانی</th>
+                        <th class="px-1 pb-3">مقدار به افغانی</th>
+                    </tr>
+                   
+                    <tr> 
+                        <td class="px-1"> 4</td>
+                        <td class="px-1"> کریم رحیمی</td>
+                        <td class="px-1"> کریم رحیمی</td>
+                        <td class="px-1 text-dark">2000000 </td>
+                        <td><a href="hello.html" class="nav-link btn btn-outline-info text-info">بررسی</a></td>
+                        </a>
+                    </tr>
+                </table>
+            </div>
+        
+        </div>
+       
+    <!-- Footer Start -->
+    <div class="m-lg-5 m-md-3 my-5 py-2" style="background-color: rgb(58, 58, 58);">
+        <div class="row m-0 text-center">
+            <div class="col-lg-3 col-md-3 col-sm-12 p-3">
+                <img src="/assets/img/LOGO.png" alt="Bootstrap" width="50" height="50"
+                class="d-inline-block align-text-bottom">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 p-3 fw-blod text-white fs-5">
+                <span>آدرس : </span><span> کابل، دشت برچی ، مارکیت برچی سیتی سنتر منزل پنجم</span>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 p-3 text-white">
+             <p class="m-0">nazari@gamil.com</p>
+             <p class="m-0">+93782800275</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <script src="/assets/Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
